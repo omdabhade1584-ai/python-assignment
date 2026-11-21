@@ -5,5 +5,7 @@ def next_7_days():
   today=date.today()
   for i in range(7):
      yield today+timedelta(days=i)
+    #  loop
+    
 for day in next_7_days():
  print(day)
