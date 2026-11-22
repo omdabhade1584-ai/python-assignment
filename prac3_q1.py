@@ -8,7 +8,7 @@ def analyse_numbers(numbers):
  print("Maximun Value in List:",max(numbers))
  print("Minimun Value in List:",min(numbers))
  print("Sum of all values in List:",sum(numbers))
- print("Average value of List:",max(numbers))
+ print("Average value of List:",sum(numbers)/len(numbers))
 
 n=int(input("Enter num of a elements in a list:"))
 numbers=[]
