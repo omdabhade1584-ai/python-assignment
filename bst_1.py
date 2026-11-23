@@ -32,6 +32,7 @@ def inorder(temp):  #recursive method
     else:
         inorder(temp.left)
         print(temp.data, end=" ")
+        
         inorder(temp.right)
 
 btree=BST()
