@@ -45,3 +45,5 @@ btree.insert(Node(9))
 btree.insert(Node(2))
 btree.insert(Node(8))
 inorder(btree.root)
+
+# HW NO of nodes in Left subtree and Right Subtree
